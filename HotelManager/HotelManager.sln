@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManager.Api", "HotelManager.Api\HotelManager.Api.csproj", "{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManager.Api", "HotelManager.Api\HotelManager.Api.csproj", "{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManager.Core", "HotelManager.Core\HotelManager.Core.csproj", "{C1289577-3D9F-4500-97E4-5D34A0F69C71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManager.Core", "HotelManager.Core\HotelManager.Core.csproj", "{C1289577-3D9F-4500-97E4-5D34A0F69C71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManager.Data", "HotelManager.Data\HotelManager.Data.csproj", "{01C55E51-5088-4D74-A3C6-837A5BE503C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManager.Data", "HotelManager.Data\HotelManager.Data.csproj", "{01C55E51-5088-4D74-A3C6-837A5BE503C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManager.Domain", "HotelManager.Domain\HotelManager.Domain.csproj", "{387B9603-DADA-45DC-B28F-4DFFD57039BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManager.Domain", "HotelManager.Domain\HotelManager.Domain.csproj", "{387B9603-DADA-45DC-B28F-4DFFD57039BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

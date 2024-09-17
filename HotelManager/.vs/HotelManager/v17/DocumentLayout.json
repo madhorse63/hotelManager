@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\HotelManager\\hotelManager\\HotelManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{387B9603-DADA-45DC-B28F-4DFFD57039BF}|HotelManager.Domain\\HotelManager.Domain.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{387B9603-DADA-45DC-B28F-4DFFD57039BF}|HotelManager.Domain\\HotelManager.Domain.csproj|solutionrelative:hotelmanager.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.api\\contollers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|solutionrelative:hotelmanager.api\\contollers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01C55E51-5088-4D74-A3C6-837A5BE503C9}|HotelManager.Data\\HotelManager.Data.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C55E51-5088-4D74-A3C6-837A5BE503C9}|HotelManager.Data\\HotelManager.Data.csproj|solutionrelative:hotelmanager.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.api\\contollers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|solutionrelative:hotelmanager.api\\contollers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1289577-3D9F-4500-97E4-5D34A0F69C71}|HotelManager.Core\\HotelManager.Core.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1289577-3D9F-4500-97E4-5D34A0F69C71}|HotelManager.Core\\HotelManager.Core.csproj|solutionrelative:hotelmanager.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.api\\context\\bookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|solutionrelative:hotelmanager.api\\context\\bookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.api\\context\\roomscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F2CA10-7041-48E5-BDD7-A41DFBB2EDAF}|HotelManager.Api\\HotelManager.Api.csproj|solutionrelative:hotelmanager.api\\context\\roomscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1289577-3D9F-4500-97E4-5D34A0F69C71}|HotelManager.Core\\HotelManager.Core.csproj|e:\\hotelmanager\\hotelmanager\\hotelmanager\\hotelmanager.core\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1289577-3D9F-4500-97E4-5D34A0F69C71}|HotelManager.Core\\HotelManager.Core.csproj|solutionrelative:hotelmanager.core\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "HotelManager.Domain\\Class1.cs",
-              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Domain\\Class1.cs",
-              "RelativeToolTip": "HotelManager.Domain\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "BookingDTO.cs",
+              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Core\\DTO\\BookingDTO.cs",
+              "RelativeDocumentMoniker": "HotelManager.Core\\DTO\\BookingDTO.cs",
+              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Core\\DTO\\BookingDTO.cs",
+              "RelativeToolTip": "HotelManager.Core\\DTO\\BookingDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T22:37:54.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T21:52:54.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "HotelManager.Data\\Class1.cs",
-              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Data\\Class1.cs",
-              "RelativeToolTip": "HotelManager.Data\\Class1.cs",
+              "DocumentIndex": 3,
+              "Title": "RoomsContext.cs",
+              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Context\\RoomsContext.cs",
+              "RelativeDocumentMoniker": "HotelManager.Api\\Context\\RoomsContext.cs",
+              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Context\\RoomsContext.cs",
+              "RelativeToolTip": "HotelManager.Api\\Context\\RoomsContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T22:37:37.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T21:50:08.92Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "HotelManager.Core\\Class1.cs",
-              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Core\\Class1.cs",
-              "RelativeToolTip": "HotelManager.Core\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "BookingContext.cs",
+              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Context\\BookingContext.cs",
+              "RelativeDocumentMoniker": "HotelManager.Api\\Context\\BookingContext.cs",
+              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Context\\BookingContext.cs",
+              "RelativeToolTip": "HotelManager.Api\\Context\\BookingContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T22:37:14.415Z",
+              "WhenOpened": "2024-09-17T21:49:59.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Contollers\\BookingController.cs",
+              "RelativeDocumentMoniker": "HotelManager.Api\\Contollers\\BookingController.cs",
+              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Contollers\\BookingController.cs",
+              "RelativeToolTip": "HotelManager.Api\\Contollers\\BookingController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:47:23.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Contollers\\RoomController.cs",
+              "RelativeDocumentMoniker": "HotelManager.Api\\Contollers\\RoomController.cs",
+              "ToolTip": "E:\\HotelManager\\hotelManager\\HotelManager\\HotelManager.Api\\Contollers\\RoomController.cs",
+              "RelativeToolTip": "HotelManager.Api\\Contollers\\RoomController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:47:20.904Z",
               "EditorCaption": ""
             }
           ]

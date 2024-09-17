@@ -1,0 +1,15 @@
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\bin\Debug\net8.0\HotelManager.Core.deps.json
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\bin\Debug\net8.0\HotelManager.Core.runtimeconfig.json
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\bin\Debug\net8.0\HotelManager.Core.dll
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\bin\Debug\net8.0\HotelManager.Core.pdb
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.csproj.AssemblyReference.cache
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.AssemblyInfoInputs.cache
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.AssemblyInfo.cs
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.csproj.CoreCompileInputs.cache
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.sourcelink.json
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.dll
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\refint\HotelManager.Core.dll
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.pdb
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\HotelManager.Core.genruntimeconfig.cache
+E:\HotelManager\hotelManager\HotelManager\HotelManager.Core\obj\Debug\net8.0\ref\HotelManager.Core.dll
