@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HotelManager.Api.Context;
+using HotelManager.Core.DTO;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelManager.Api.Contollers
@@ -7,6 +9,13 @@ namespace HotelManager.Api.Contollers
     [ApiController]
     public class RoomController : ControllerBase
     {
+        private RoomsContext _roomContext;
+
+        public RoomController(RoomsContext roomContext)
+        {
+            _roomContext = roomContext;
+        }
+
         [HttpGet]
         public IActionResult GetAllRooms()
         {
@@ -20,8 +29,22 @@ namespace HotelManager.Api.Contollers
         }
 
         [HttpPost]
-        public IActionResult CreateRoom()
+        public IActionResult CreateRoom([FromBody] RoomDTO room)
         {
+            if (room == null)
+            {
+                return BadRequest("Room can not be null.");
+            }
+
+            _roomContext.Rooms.Add(room);
+
+            int result = _roomContext.SaveChanges();
+
+            if (result > 0)
+            {
+                
+            }
+
             return Ok();
         }
 
