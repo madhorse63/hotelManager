@@ -10,6 +10,6 @@ namespace HotelManager.Api.Context
         
         }
 
-        DbSet<BookingDTO> Bookings { get; set; }
+        public DbSet<BookingDTO> Bookings { get; set; }
     }
 }

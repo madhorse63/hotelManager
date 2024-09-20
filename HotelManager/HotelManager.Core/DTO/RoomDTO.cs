@@ -8,15 +8,12 @@ namespace HotelManager.Core.DTO
 {
     public class RoomDTO
     {
-        public int Id { get; set; }
-        public int Number { get; set; }
+        public int Id { get; set; };
+        public int Number { get; set; };
 
-        public enum Type
-        {
-            economy,
-            standart,
-            luxury
-        }
-        public decimal Price { get; set; }
+        public enum _Type { economy, standart, luxury };
+        public _Type Type { get; set };
+
+        public decimal Price { get; set; };
     }
 }

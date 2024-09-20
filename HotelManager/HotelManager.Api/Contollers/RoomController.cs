@@ -1,7 +1,8 @@
-﻿using HotelManager.Api.Context;
-using HotelManager.Core.DTO;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
+using HotelManager.Api.Context;
+using HotelManager.Core.DTO;
 
 namespace HotelManager.Api.Contollers
 {
@@ -17,15 +18,23 @@ namespace HotelManager.Api.Contollers
         }
 
         [HttpGet]
-        public IActionResult GetAllRooms()
+        public IActionResult <IEnumerable<RoomDTO>> GetAllRooms()
         {
-            return Ok();
+            var rooms = _roomContext.Rooms.ToLists();
+
+            return Ok(rooms);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetRoom(int id)
+        public IActionResult<RoomDTO> GetRoom(int id)
         {
-            return Ok();
+            var room = _roomContext.Rooms.Find(id);
+            if(room == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(room);
         }
 
         [HttpPost]
@@ -42,22 +51,50 @@ namespace HotelManager.Api.Contollers
 
             if (result > 0)
             {
-                
+                return CreatedAtAction(nameof(GetRoom), new {id = room.Id}, room)
             }
 
-            return Ok();
+            return StatusCode(500, "An error while creating room");
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateRoom(int id)
+        public IActionResult UpdateRoom(int id, [FromBody] RoomDTO room)
         {
-            return Ok();
+            if(id != room.Id)
+            {
+                return BadRequest();
+            }
+
+            var existingRoom = _roomContext.Rooms.Find(id);
+            if(existingRoom == null)
+            {
+                return NotFound();
+            }
+
+            existingRoom.Number = room.Number;
+            existingRoom.Type = room.Type;
+            existingRoom.Price = room.Price;
+
+            _roomContext.Rooms.Update();
+            _roomContext.SaveChanges();
+
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteRoom(int id)
         {
-            return Ok();
+            var room = _roomContext.Rooms.Find(id);
+
+            if(room == null)
+            {
+                return BadRequest();
+            }
+
+            _roomContext.Rooms.Remove(room);
+            _roomContext.SaveChanges();
+
+            return NoContent();
         }
 
     }
